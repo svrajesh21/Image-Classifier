@@ -33,16 +33,8 @@ Key features:
 ---
 
 
-## **Features**
-- Classifies images into the following categories:  
-  `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`.  
-- Implements data preprocessing (normalization) and data augmentation (random flips, rotations, and shifts).  
-- A robust CNN architecture with dropout and batch normalization for better generalization.  
-- Saves the trained model for future use (`cifar10_cnn_model.h5`).
 
 
-  
----
 ## **How It Works**
 1. **Data Preprocessing**:
    - Images are normalized to the range `[0, 1]` for faster training.  
