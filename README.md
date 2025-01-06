@@ -35,23 +35,6 @@ Key features:
 
 
 
-## **How It Works**
-1. **Data Preprocessing**:
-   - Images are normalized to the range `[0, 1]` for faster training.  
-2. **Data Augmentation**:
-   - Random rotations, shifts, and horizontal flips are applied to improve generalization.  
-3. **CNN Architecture**:
-   - Multiple convolutional layers to extract features like edges and textures.  
-   - Pooling layers to downsample and reduce complexity.  
-   - Dropout layers to prevent overfitting.  
-4. **Training**:
-   - The model is trained for 50 epochs with the Adam optimizer.  
-5. **Evaluation**:
-   - The model achieves ~80% accuracy on the test dataset.  
-
-
----
-
 ## **Tech Stack**
 - **Programming Language**: Python  
 - **Frameworks/Libraries**:  
